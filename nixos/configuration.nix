@@ -181,10 +181,13 @@
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
 
+  # home-manager.useGlobalPkgs = true;
+  # home-manager.useUserPackages = true;
+  # home-manager.enable = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
-  # programs.mtr.enable = true;
+  # programsmtr.enable = true;
   # programs.gnupg.agent = {
   #   enable = true;
   #   enableSSHSupport = true;
